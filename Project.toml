@@ -1,7 +1,16 @@
 name = "ArbitraryLinearPlasmaSolver"
 uuid = "f400f32b-bfa3-4079-a2a5-31b278c4cdab"
-authors = ["Beforerr <zzj956959688@gmail.com> and contributors"]
 version = "1.0.0-DEV"
+authors = ["Beforerr <zzj956959688@gmail.com> and contributors"]
+
+[workspace]
+projects = ["test", "docs"]
+
+[deps]
+ArbitraryLinearPlasmaSolver_jll = "bef83552-04e7-5870-adb7-64f9f8656e45"
+MPICH_jll = "7cb0a576-ebde-5e09-9194-50597f1243b4"
 
 [compat]
+ArbitraryLinearPlasmaSolver_jll = "1.1.2"
+MPICH_jll = "4"
 julia = "1.10"

@@ -1,3 +1,4 @@
 [deps]
+ArbitraryLinearPlasmaSolver = "f400f32b-bfa3-4079-a2a5-31b278c4cdab"
 Aqua = "4c88cf16-eb10-579e-8560-4a9242c79595"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
